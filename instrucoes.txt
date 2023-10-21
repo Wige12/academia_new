@@ -1,0 +1,39 @@
+Intruções de instalação e configuração
+---------------------------------------
+
+---------------------------------------
+O arquivo para criação do banco de dados é o BANCO.SQL que se encontra dentro da pasta BANCO
+
+Crie o banco de dados no seu mysql e importe o banco.sql que se encontra em: BANCO/banco.sql
+
+Dentro da pasta 'Application' -> 'Config' edite o arquivo 'database.php' e coloque os dados de acesso ao banco de dados. 
+---------------------------------------
+
+
+---------------------------------------
+Dentro da pasta 'Application' -> 'Config' edite o arquivo 'config.php' na seguinte linha. 
+
+$config['base_url']	= ''; 
+
+Aqui você colocará a url base de sua aplicação, se colocar na raiz do servidor por exemplo colocará assim: $config['base_url']	= 'http://127.0.0.1'; ou 'http://dominio.com'
+
+Se colocar dentro de uma pasta com nome por exemplo 'academia' ficará assim:
+$config['base_url']	= 'http://127.0.0.1/academia';
+
+
+Obs: Em alguns casos no ambiente local (localhost) é necessário especificar a porta.
+Exemplo: $config['base_url']	= 'http://127.0.0.1:3000/academia';
+---------------------------------------
+
+---------------------------------------
+O logotipo se encontra dentro da pasta assets/img. Caso queira trocá-lo, basta substituir pelo logo desejado com o mesmo nome (logo.png). 
+---------------------------------------
+
+---------------------------------------
+Dados de acesso
+Email: admin@admin.com
+Senha: admin
+---------------------------------------
+
+
+Qualquer dúvida ou problema contate -> marinhorodri22@gmail.com
